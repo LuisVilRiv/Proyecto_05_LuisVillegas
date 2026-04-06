@@ -1,0 +1,12 @@
+{
+  "slots": {
+    "rtp_objetivo": 0.94,
+    "volatilidad": "media"
+  },
+  "ruleta": {
+    "apuesta_minima": 1.0
+  },
+  "blackjack": {
+    "dealer_stand_soft_17": true
+  }
+}
