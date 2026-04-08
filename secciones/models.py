@@ -22,6 +22,12 @@ class Jugador:
     historial: list = field(default_factory=list)
     stats: SessionStats = field(default_factory=SessionStats)
     estadisticas_globales: dict = field(default_factory=dict)
+    # Gamificación
+    nivel: int = 1
+    xp: int = 0
+    racha_victorias: int = 0
+    max_racha: int = 0
+    logros: list = field(default_factory=list)
 
     def depositar(self, monto: float) -> None:
         if monto <= 0:
@@ -50,6 +56,10 @@ class Jugador:
         self.stats.total_ganado += premio
         self.stats.jugadas += 1
         self._actualizar_estadisticas_globales(juego, apuesta, premio)
+        if premio > apuesta:  # Victoria
+            self.registrar_victoria(premio)
+        else:  # Derrota o empate
+            self.registrar_derrota()
         self.historial.append(
             {
                 "fecha": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -86,6 +96,38 @@ class Jugador:
                 "saldo_post": round(self.saldo, 2),
             }
         )
+
+    def registrar_victoria(self, premio: float) -> None:
+        """Registra una victoria para la racha"""
+        self.racha_victorias += 1
+        self.max_racha = max(self.max_racha, self.racha_victorias)
+        self.ganar_xp(int(premio // 10))  # XP basado en premio
+
+    def registrar_derrota(self) -> None:
+        """Resetea la racha de victorias"""
+        self.racha_victorias = 0
+
+    def ganar_xp(self, cantidad: int) -> None:
+        """Añade XP y sube de nivel si es necesario"""
+        self.xp += cantidad
+        xp_necesario = self.nivel * 100  # XP necesario = nivel * 100
+        while self.xp >= xp_necesario:
+            self.xp -= xp_necesario
+            self.nivel += 1
+            xp_necesario = self.nivel * 100
+            self.verificar_logros()
+            # Aquí podríamos añadir un callback para reproducir sonido de level up
+
+    def verificar_logros(self) -> None:
+        """Verifica y añade logros desbloqueados"""
+        logros_nuevos = []
+        if self.nivel >= 5 and "Nivel 5" not in self.logros:
+            logros_nuevos.append("Nivel 5")
+        if self.max_racha >= 5 and "Racha de 5" not in self.logros:
+            logros_nuevos.append("Racha de 5")
+        if self.stats.jugadas >= 100 and "100 Jugadas" not in self.logros:
+            logros_nuevos.append("100 Jugadas")
+        self.logros.extend(logros_nuevos)
 
 
 class PersistenciaCasino:

@@ -60,7 +60,7 @@
       }
     },
     "Luis2": {
-      "saldo": 600.0,
+      "saldo": 995030.0,
       "historial": [
         {
           "fecha": "2026-04-07 09:50:53",
@@ -178,30 +178,818 @@
           "balance": -100.0,
           "detalle": "Sin premio",
           "saldo_post": 600.0
+        },
+        {
+          "fecha": "2026-04-07 12:11:32",
+          "juego": "caja",
+          "apuesta": 0.0,
+          "premio": 1000000.0,
+          "balance": 1000000.0,
+          "detalle": "deposito",
+          "saldo_post": 1000600.0
+        },
+        {
+          "fecha": "2026-04-07 12:11:51",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin premio",
+          "saldo_post": 1000500.0
+        },
+        {
+          "fecha": "2026-04-07 12:12:46",
+          "juego": "Ruleta Real",
+          "apuesta": 110,
+          "premio": 10,
+          "balance": -100,
+          "detalle": "Cae 22 (negro)",
+          "saldo_post": 1000400.0
+        },
+        {
+          "fecha": "2026-04-07 12:13:16",
+          "juego": "Blackjack Real",
+          "apuesta": 1100,
+          "premio": 0.0,
+          "balance": -1100.0,
+          "detalle": "💀 Te pasaste.",
+          "saldo_post": 999300.0
+        },
+        {
+          "fecha": "2026-04-07 12:14:08",
+          "juego": "Ruleta Real",
+          "apuesta": 1100,
+          "premio": 0,
+          "balance": -1100,
+          "detalle": "Cae 15 (negro)",
+          "saldo_post": 998200.0
+        },
+        {
+          "fecha": "2026-04-07 12:38:04",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin premio",
+          "saldo_post": 998100.0
+        },
+        {
+          "fecha": "2026-04-07 12:38:26",
+          "juego": "Ruleta Real",
+          "apuesta": 500,
+          "premio": 500,
+          "balance": 0,
+          "detalle": "Cae 13 (negro)",
+          "saldo_post": 998100.0
+        },
+        {
+          "fecha": "2026-04-07 12:39:56",
+          "juego": "Ruleta Real",
+          "apuesta": 1500,
+          "premio": 0,
+          "balance": -1500,
+          "detalle": "Cae 2 (negro)",
+          "saldo_post": 996600.0
+        },
+        {
+          "fecha": "2026-04-07 12:40:39",
+          "juego": "Blackjack Real",
+          "apuesta": 1100,
+          "premio": 2200,
+          "balance": 1100,
+          "detalle": "🎉 El Dealer se pasa. Ganas!",
+          "saldo_post": 997700.0
+        },
+        {
+          "fecha": "2026-04-07 13:53:07",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin premio",
+          "saldo_post": 997600.0
+        },
+        {
+          "fecha": "2026-04-07 13:53:48",
+          "juego": "Blackjack Real",
+          "apuesta": 800,
+          "premio": 1600,
+          "balance": 800,
+          "detalle": "🎉 El Dealer se pasa. Ganas!",
+          "saldo_post": 998400.0
+        },
+        {
+          "fecha": "2026-04-07 13:54:30",
+          "juego": "Blackjack Real",
+          "apuesta": 1000,
+          "premio": 0.0,
+          "balance": -1000.0,
+          "detalle": "💀 Te pasaste de 21. Pierdes la mano.",
+          "saldo_post": 997400.0
+        },
+        {
+          "fecha": "2026-04-07 14:00:21",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin premio",
+          "saldo_post": 997300.0
+        },
+        {
+          "fecha": "2026-04-07 14:00:39",
+          "juego": "Blackjack Real",
+          "apuesta": 1100,
+          "premio": 2200,
+          "balance": 1100,
+          "detalle": "🎉 ¡Ganas la mano!",
+          "saldo_post": 998400.0
+        },
+        {
+          "fecha": "2026-04-07 14:04:35",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin premio",
+          "saldo_post": 998300.0
+        },
+        {
+          "fecha": "2026-04-08 08:06:33",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 998200.0
+        },
+        {
+          "fecha": "2026-04-08 08:06:44",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 998100.0
+        },
+        {
+          "fecha": "2026-04-08 08:06:50",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 998000.0
+        },
+        {
+          "fecha": "2026-04-08 08:06:55",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997900.0
+        },
+        {
+          "fecha": "2026-04-08 08:06:59",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997800.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:04",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997700.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:08",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997600.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:12",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997500.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:16",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997400.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:20",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997300.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:24",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997200.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:28",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997100.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:32",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997000.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:36",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 996900.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:40",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 996800.0
+        },
+        {
+          "fecha": "2026-04-08 08:07:44",
+          "juego": "Slots Real",
+          "apuesta": 100,
+          "premio": 0.0,
+          "balance": -100.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 996700.0
+        },
+        {
+          "fecha": "2026-04-08 08:08:14",
+          "juego": "Blackjack Real",
+          "apuesta": 600,
+          "premio": 1200,
+          "balance": 600,
+          "detalle": "🎉 El Dealer se pasa. Ganas!",
+          "saldo_post": 997300.0
+        },
+        {
+          "fecha": "2026-04-08 13:34:47",
+          "juego": "Slots Real",
+          "apuesta": 10,
+          "premio": 0.0,
+          "balance": -10.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 997290.0
+        },
+        {
+          "fecha": "2026-04-08 13:36:45",
+          "juego": "Blackjack Real",
+          "apuesta": 1100,
+          "premio": 2200,
+          "balance": 1100,
+          "detalle": "🎉 ¡Ganas la mano!",
+          "saldo_post": 998390.0
+        },
+        {
+          "fecha": "2026-04-08 13:36:58",
+          "juego": "Blackjack Real",
+          "apuesta": 2000,
+          "premio": 0.0,
+          "balance": -2000.0,
+          "detalle": "💀 Te pasaste.",
+          "saldo_post": 996390.0
+        },
+        {
+          "fecha": "2026-04-08 14:16:19",
+          "juego": "Slots Real",
+          "apuesta": 10,
+          "premio": 0.0,
+          "balance": -10.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 996380.0
+        },
+        {
+          "fecha": "2026-04-08 14:16:26",
+          "juego": "Slots Real",
+          "apuesta": 10,
+          "premio": 0.0,
+          "balance": -10.0,
+          "detalle": "Sin combinación ganadora",
+          "saldo_post": 996370.0
+        },
+        {
+          "fecha": "2026-04-08 14:17:11",
+          "juego": "Ruleta Real",
+          "apuesta": 150,
+          "premio": 325,
+          "balance": 175,
+          "detalle": "Cae 8 (negro)",
+          "saldo_post": 996545.0
+        },
+        {
+          "fecha": "2026-04-08 14:18:00",
+          "juego": "Ruleta Real",
+          "apuesta": 25,
+          "premio": 0,
+          "balance": -25,
+          "detalle": "Cae 17 (negro)",
+          "saldo_post": 996520.0
+        },
+        {
+          "fecha": "2026-04-08 14:19:16",
+          "juego": "Blackjack Real",
+          "apuesta": 1100,
+          "premio": 0.0,
+          "balance": -1100.0,
+          "detalle": "💀 Te pasaste.",
+          "saldo_post": 995420.0
+        },
+        {
+          "fecha": "2026-04-08 14:19:37",
+          "juego": "Blackjack Real",
+          "apuesta": 1000,
+          "premio": 2000,
+          "balance": 1000,
+          "detalle": "🎉 El dealer se pasa de 21. ¡Ganas!",
+          "saldo_post": 996420.0
+        },
+        {
+          "fecha": "2026-04-08 17:11:34",
+          "juego": "caja",
+          "apuesta": 0.0,
+          "premio": 50.0,
+          "balance": 50.0,
+          "detalle": "deposito",
+          "saldo_post": 996470.0
+        },
+        {
+          "fecha": "2026-04-08 17:11:40",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "Flet UI: ['💎', '7️⃣', '7️⃣']",
+          "saldo_post": 996460.0
+        },
+        {
+          "fecha": "2026-04-08 17:11:42",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "Flet UI: ['💎', '🔔', '🍋']",
+          "saldo_post": 996450.0
+        },
+        {
+          "fecha": "2026-04-08 17:11:44",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "Flet UI: ['💎', '🍒', '🔔']",
+          "saldo_post": 996440.0
+        },
+        {
+          "fecha": "2026-04-08 17:11:52",
+          "juego": "Slots",
+          "apuesta": 20.0,
+          "premio": 0,
+          "balance": -20.0,
+          "detalle": "Flet UI: ['7️⃣', '⭐', '🍒']",
+          "saldo_post": 996420.0
+        },
+        {
+          "fecha": "2026-04-08 17:11:58",
+          "juego": "Ruleta",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "Cayó 16 (ROJO)",
+          "saldo_post": 996430.0
+        },
+        {
+          "fecha": "2026-04-08 17:12:05",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "¡BUST! Te pasaste.",
+          "saldo_post": 996420.0
+        },
+        {
+          "fecha": "2026-04-08 17:12:10",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 10.0,
+          "balance": 0.0,
+          "detalle": "Empate (Push).",
+          "saldo_post": 996420.0
+        },
+        {
+          "fecha": "2026-04-08 17:27:50",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "Dealer se pasó. ¡GANASTE!",
+          "saldo_post": 996430.0
+        },
+        {
+          "fecha": "2026-04-08 17:28:00",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "🏆 ¡GANASTE!",
+          "saldo_post": 996440.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:03",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "['🍋', '7️⃣', '💎']",
+          "saldo_post": 996430.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:07",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "['⭐', '⭐', '🍋']",
+          "saldo_post": 996420.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:09",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "['7️⃣', '🔔', '🍋']",
+          "saldo_post": 996410.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:12",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "['🍋', '🍋', '💎']",
+          "saldo_post": 996400.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:15",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "['🔔', '🔔', '🍒']",
+          "saldo_post": 996390.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:18",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "['7️⃣', '🍒', '🍒']",
+          "saldo_post": 996380.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:20",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "['🍒', '🔔', '🔔']",
+          "saldo_post": 996370.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:22",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 30.0,
+          "balance": 20.0,
+          "detalle": "['🍒', '🍒', '🍒']",
+          "saldo_post": 996390.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:38",
+          "juego": "Ruleta",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "Cayó 13",
+          "saldo_post": 996380.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:49",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "💥 ¡Te pasaste!",
+          "saldo_post": 996370.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:53",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "💥 ¡Te pasaste!",
+          "saldo_post": 996360.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:54",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "💥 ¡Te pasaste!",
+          "saldo_post": 996350.0
+        },
+        {
+          "fecha": "2026-04-08 17:31:59",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "Dealer se pasó. ¡GANASTE!",
+          "saldo_post": 996360.0
+        },
+        {
+          "fecha": "2026-04-08 17:32:03",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "💥 ¡Te pasaste!",
+          "saldo_post": 996350.0
+        },
+        {
+          "fecha": "2026-04-08 17:32:04",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 10.0,
+          "balance": 0.0,
+          "detalle": "Empate — Push.",
+          "saldo_post": 996350.0
+        },
+        {
+          "fecha": "2026-04-08 17:32:12",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "Dealer gana.",
+          "saldo_post": 996340.0
+        },
+        {
+          "fecha": "2026-04-08 17:32:16",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "💥 ¡Te pasaste!",
+          "saldo_post": 996330.0
+        },
+        {
+          "fecha": "2026-04-08 17:32:20",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "Dealer se pasó. ¡GANASTE!",
+          "saldo_post": 996340.0
+        },
+        {
+          "fecha": "2026-04-08 17:32:23",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "Dealer se pasó. ¡GANASTE!",
+          "saldo_post": 996350.0
+        },
+        {
+          "fecha": "2026-04-08 17:36:44",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "['🔔', '🍋', '⭐']",
+          "saldo_post": 996340.0
+        },
+        {
+          "fecha": "2026-04-08 17:36:54",
+          "juego": "Ruleta",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "Cayó 21",
+          "saldo_post": 996350.0
+        },
+        {
+          "fecha": "2026-04-08 17:37:02",
+          "juego": "Ruleta",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "Cayó 31",
+          "saldo_post": 996340.0
+        },
+        {
+          "fecha": "2026-04-08 17:37:08",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "💥 ¡Te pasaste!",
+          "saldo_post": 996330.0
+        },
+        {
+          "fecha": "2026-04-08 17:37:11",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "🏆 ¡GANASTE!",
+          "saldo_post": 996340.0
+        },
+        {
+          "fecha": "2026-04-08 17:37:17",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "🏆 ¡GANASTE!",
+          "saldo_post": 996350.0
+        },
+        {
+          "fecha": "2026-04-08 17:37:18",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 10.0,
+          "balance": 0.0,
+          "detalle": "Empate — Push.",
+          "saldo_post": 996350.0
+        },
+        {
+          "fecha": "2026-04-08 17:37:25",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "🏆 ¡GANASTE!",
+          "saldo_post": 996360.0
+        },
+        {
+          "fecha": "2026-04-08 17:37:32",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "Dealer se pasó. ¡GANASTE!",
+          "saldo_post": 996370.0
+        },
+        {
+          "fecha": "2026-04-08 17:37:36",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "Dealer gana.",
+          "saldo_post": 996360.0
+        },
+        {
+          "fecha": "2026-04-08 17:37:41",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "Dealer se pasó. ¡GANASTE!",
+          "saldo_post": 996370.0
+        },
+        {
+          "fecha": "2026-04-08 18:34:58",
+          "juego": "Ruleta",
+          "apuesta": 150,
+          "premio": 120,
+          "balance": -30,
+          "detalle": "Cayó 27",
+          "saldo_post": 996310.0
+        },
+        {
+          "fecha": "2026-04-08 18:36:04",
+          "juego": "Slots",
+          "apuesta": 10.0,
+          "premio": 30.0,
+          "balance": 20.0,
+          "detalle": "['🍒', '🍒', '🍒']",
+          "saldo_post": 996330.0
+        },
+        {
+          "fecha": "2026-04-08 18:36:27",
+          "juego": "Ruleta",
+          "apuesta": 650,
+          "premio": 0,
+          "balance": -650,
+          "detalle": "Cayó 35",
+          "saldo_post": 995030.0
+        },
+        {
+          "fecha": "2026-04-08 18:36:37",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 20.0,
+          "balance": 10.0,
+          "detalle": "🏆 ¡GANASTE!",
+          "saldo_post": 995040.0
+        },
+        {
+          "fecha": "2026-04-08 18:36:56",
+          "juego": "Blackjack",
+          "apuesta": 10.0,
+          "premio": 0,
+          "balance": -10.0,
+          "detalle": "💥 ¡Te pasaste!",
+          "saldo_post": 995030.0
         }
       ],
       "estadisticas_globales": {
         "Blackjack Real": {
-          "jugadas": 2,
-          "apostado": 25.0,
-          "ganado": 10.0
+          "jugadas": 12,
+          "apostado": 10925.0,
+          "ganado": 11410.0
         },
         "Slots": {
-          "jugadas": 1,
-          "apostado": 10.0,
-          "ganado": 0.0
+          "jugadas": 15,
+          "apostado": 160.0,
+          "ganado": 60.0
         },
         "Ruleta Real": {
-          "jugadas": 2,
-          "apostado": 405.0,
-          "ganado": 210.0
+          "jugadas": 8,
+          "apostado": 3790.0,
+          "ganado": 1045.0
         },
         "Slots Real": {
-          "jugadas": 3,
-          "apostado": 300.0,
+          "jugadas": 27,
+          "apostado": 2430.0,
           "ganado": 0.0
+        },
+        "Ruleta": {
+          "jugadas": 6,
+          "apostado": 840.0,
+          "ganado": 160.0
+        },
+        "Blackjack": {
+          "jugadas": 24,
+          "apostado": 240.0,
+          "ganado": 250.0
         }
       }
+    },
+    "Luis22": {
+      "saldo": 0.0,
+      "historial": []
     }
   }
 }

@@ -2,6 +2,11 @@
   "users": {
     "Luis": "4efda620071a74ec2202d39082123c6c572702e93a52a18b55e0dbc52974bb5f",
     "Luis1": "f931c308fc5b60b421c09969912839dff2776957d98b8d2f91c554ed8fc80f78",
-    "Luis2": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+    "Luis2": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "Luis22": {
+      "hash": "073144dc6c9e9f9ea2602f73f1be50c0c3bd4938ab25e8642f67d80c637c3c87",
+      "question": "\u00bfCiudad donde naciste?",
+      "answer_hash": "f552c72213e2ab863dbd2acabca499d71e96e6510daef39b95bf89fddb79a2b4"
+    }
   }
 }

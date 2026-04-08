@@ -1,0 +1,6 @@
+{
+  "sound": true,
+  "animations": false,
+  "animation_speed_ms": 85,
+  "theme": "dark"
+}
