@@ -130,45 +130,51 @@ class Jugador:
         self.logros.extend(logros_nuevos)
 
 
+from .database import get_db_connection
+
+
 class PersistenciaCasino:
-    def __init__(self, ruta_archivo: str) -> None:
-        self.ruta_archivo = ruta_archivo
-        self._data = self._cargar_todo()
-
-    def _cargar_todo(self) -> dict:
-        os.makedirs(os.path.dirname(self.ruta_archivo), exist_ok=True)
-        if not os.path.exists(self.ruta_archivo):
-            return {"usuarios": {}}
-        try:
-            with open(self.ruta_archivo, "r", encoding="utf-8") as file:
-                data = json.load(file)
-            if "usuarios" not in data:
-                data["usuarios"] = {}
-            return data
-        except (json.JSONDecodeError, OSError):
-            return {"usuarios": {}}
-
-    def _guardar_todo(self) -> None:
-        with open(self.ruta_archivo, "w", encoding="utf-8") as file:
-            json.dump(self._data, file, indent=2, ensure_ascii=False)
+    def __init__(self, ruta_archivo: str = None) -> None:
+        # ruta_archivo se ignora ahora que usamos DB, pero se mantiene por compatibilidad
+        pass
 
     def cargar_jugador(self, nombre: str) -> Jugador:
-        usuarios = self._data["usuarios"]
-        if nombre not in usuarios:
-            usuarios[nombre] = {"saldo": 0.0, "historial": []}
-            self._guardar_todo()
-        info = usuarios[nombre]
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM users WHERE username = ?", (nombre,))
+        row = cursor.fetchone()
+        
+        if not row:
+            # Si el usuario no existe en DB, creamos un registro básico.
+            # Nota: Esto suele ocurrir tras un registro exitoso o migraciones pendientes.
+            cursor.execute(
+                "INSERT INTO users (username, password_hash) VALUES (?, ?)",
+                (nombre, "TEMP_NO_HASH")
+            )
+            conn.commit()
+            conn.close()
+            return Jugador(nombre=nombre)
+        
+        conn.close()
         return Jugador(
-            nombre=nombre,
-            saldo=float(info.get("saldo", 0.0)),
-            historial=info.get("historial", []),
-            estadisticas_globales=info.get("estadisticas_globales", {}),
+            nombre=row["username"],
+            saldo=float(row["saldo"]),
+            historial=json.loads(row["historial"]),
+            estadisticas_globales=json.loads(row["estadisticas_globales"]),
         )
 
     def guardar_jugador(self, jugador: Jugador) -> None:
-        self._data["usuarios"][jugador.nombre] = {
-            "saldo": round(jugador.saldo, 2),
-            "historial": jugador.historial[-200:],
-            "estadisticas_globales": jugador.estadisticas_globales,
-        }
-        self._guardar_todo()
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute('''
+            UPDATE users 
+            SET saldo = ?, historial = ?, estadisticas_globales = ? 
+            WHERE username = ?
+        ''', (
+            round(jugador.saldo, 2),
+            json.dumps(jugador.historial[-200:]),
+            json.dumps(jugador.estadisticas_globales),
+            jugador.nombre
+        ))
+        conn.commit()
+        conn.close()
